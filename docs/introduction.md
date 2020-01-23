@@ -1,5 +1,5 @@
 ## 网站建设
-本网站仿照 [OI-Wiki](https://oi-wiki.org/) 设计，用于学习算法竞赛相关的内容。支持markdown和LaTeX语法。  
+本网站仿照 [OI-Wiki](https://oi-wiki.org/) 基于 `mkdocs` 设计，用于学习算法竞赛相关的内容。支持 markdown 和 LaTeX 语法。  
 本项目托管在GitHub的 [repo](https://github.com/LyuLumos/Demo-of-CUC-acmwiki.io) 中，由Travis自动部署。  
 （由于作者太菜，还需要很长时间完善···）
 

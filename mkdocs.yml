@@ -7,10 +7,9 @@ nav:
   - 首页: 
       - 关于本项目: introduction.md
       - 关于mkdocs: index.md
+  - C语言基础: base.md
   - 2020春集训安排: 
       - 讲师名单: TeacherName.md
-  - 测试:
-      - 测试页面: test.md
 
 ## Theme
 theme:
