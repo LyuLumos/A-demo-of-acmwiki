@@ -10,7 +10,7 @@ install:
   - echo -e "machine github.com\n  login ${GITHUB_TOKEN}" > ~/.netrc
 
 script:
-  - mkdocs gh-deploy
+  - mkdocs gh-deploy --force --clean
 
 deploy:
   provider: pages
