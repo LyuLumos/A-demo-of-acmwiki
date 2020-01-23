@@ -10,6 +10,10 @@ install:
 script:
   - mkdocs gh-deploy --force --clean 
 
-branches:
-  only:
-    - master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master
