@@ -9,7 +9,7 @@ install:
   - pip install pymdown-extensions
   - echo -e "machine github.com\n  login ${GITHUB_TOKEN}" > ~/.netrc
 
-script:
+script: 
   - mkdocs gh-deploy --force --clean
 
 deploy:

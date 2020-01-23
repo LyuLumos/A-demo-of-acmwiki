@@ -4,14 +4,11 @@ theme:
   
 # Contents
 nav:
-  - Page1: 
-      - Title1: index.md
-  - Page2: 
-      - Title1: 02.md
-      - Title2:
-        - Subtitle1: 03.md
-        - Subtitle2: index.md
-      - Title3: 04.md
+  - 首页: 
+      - 关于本项目: introduction.md
+      - 关于mkdocs: index.md
+  - 2020春集训安排: 
+      - 讲师名单: TeacherName.md
 
 ## Theme
 theme:
