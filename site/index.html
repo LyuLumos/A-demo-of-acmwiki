@@ -36,7 +36,7 @@
     
     
       
-        <title>Title1 - A Demo of CUC acm-wiki</title>
+        <title>Subtitle2 - A Demo of CUC acm-wiki</title>
       
     
     
@@ -113,7 +113,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Title1
+                Subtitle2
               
             </span>
           
@@ -170,7 +170,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="." class="md-tabs__link md-tabs__link--active">
+        <a href="." class="md-tabs__link">
           Page1
         </a>
       
@@ -183,7 +183,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="02/" class="md-tabs__link">
+        <a href="02/" class="md-tabs__link md-tabs__link--active">
           Page2
         </a>
       
@@ -218,12 +218,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
     
     <label class="md-nav__link" for="nav-1">
       Page1
@@ -234,6 +232,89 @@
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="." title="Title1" class="md-nav__link">
+      Title1
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Page2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Page2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="02/" title="Title1" class="md-nav__link">
+      Title1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2" checked>
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Title2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Title2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="03/" title="Subtitle1" class="md-nav__link">
+      Subtitle1
+    </a>
+  </li>
+
         
           
           
@@ -250,11 +331,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Title1
+        Subtitle2
       </label>
     
-    <a href="." title="Title1" class="md-nav__link md-nav__link--active">
-      Title1
+    <a href="." title="Subtitle2" class="md-nav__link md-nav__link--active">
+      Subtitle2
     </a>
     
       
@@ -289,73 +370,6 @@
   
 </nav>
     
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
-    
-    <label class="md-nav__link" for="nav-2">
-      Page2
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
-        Page2
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="02/" title="Title1" class="md-nav__link">
-      Title1
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
-    
-    <label class="md-nav__link" for="nav-2-2">
-      Title2
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
-      <label class="md-nav__title" for="nav-2-2">
-        Title2
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="03/" title="Subtitle1" class="md-nav__link">
-      Subtitle1
-    </a>
   </li>
 
         
@@ -472,14 +486,28 @@ docs/
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
+          <a href="03/" title="Subtitle1" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                Subtitle1
+              </span>
+            </div>
+          </a>
         
-          <a href="02/" title="Title1" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+        
+          <a href="04/" title="Title3" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   下一页
                 </span>
-                Title1
+                Title3
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
