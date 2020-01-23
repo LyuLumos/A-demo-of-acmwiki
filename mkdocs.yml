@@ -9,6 +9,8 @@ nav:
       - 关于mkdocs: index.md
   - 2020春集训安排: 
       - 讲师名单: TeacherName.md
+  - 测试:
+      - 测试页面: test.md
 
 ## Theme
 theme:
