@@ -1,5 +1,5 @@
 # 新年快乐！
-![avatar](newyear.png)
+![Word Art](../images/newyear.PNG)
 
 ## 网站建设
 本网站仿照 [OI-Wiki](https://oi-wiki.org/) 基于 `mkdocs` 设计，用于学习算法竞赛相关的内容。支持 markdown 和 LaTeX 语法。  
