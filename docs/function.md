@@ -113,7 +113,7 @@ int Max(int a, int b)
     return a > b ? a : b;
 }
 ```
----
+
 ## 一维数组作函数参数
 写法如下： 
 `函数类型 函数名(数组类型名 数组名[])`
@@ -145,4 +145,4 @@ void PrintArray(int a[][5])
 <br></br>
 <br></br>
 
-Contribute by [LuLmos](https://github.com/LyuLumos)
+Contribute by [LyuLumos](https://github.com/LyuLumos)
