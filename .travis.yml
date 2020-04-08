@@ -1,23 +1,19 @@
 language: python
 
 python:
-  - "3.7"
+  - "3.6"
+
+notifications:
+  email:
+    on_success: never
 
 install:
-  - pip install mkdocs
-  - pip install mkdocs-material
-  - pip install pymdown-extensions
+  - pip install mkdocs mkdocs-material pygments
   - echo -e "machine github.com\n  login ${GITHUB_TOKEN}" > ~/.netrc
 
-script: 
-  - mkdocs gh-deploy --force
+script:
+  - mkdocs gh-deploy --force --clean
 
 branches:
   only:
     - master
-# deploy:
-#   provider: pages
-#   skip_cleanup: true
-#   github_token: $GITHUB_TOKEN
-#   on:
-#     branch: master
