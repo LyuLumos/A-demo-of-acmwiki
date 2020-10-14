@@ -40,8 +40,8 @@ theme:
   name: 'material'
   language: 'zh'
   palette:
-    primary: 'white'
-    accent: 'Indigo'
+    primary: 'Indigo'
+    accent: 'red'
   include_search_page: false
   search_index_only: true
   favicon: 'favicon.ico'
