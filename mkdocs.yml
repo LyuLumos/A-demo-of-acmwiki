@@ -1,5 +1,14 @@
 site_name: CUC ACM-Wiki
 
+repo_name: 'CUCCS/acm-wiki'
+repo_url: 'https://github.com/CUCCS/acm-wiki'
+
+copyright: 'Copyright &copy; 2019 - 2020 CUC ACM Team'
+google_analytics:
+  - 'UA-124485594-1'
+  - 'auto
+
+
 # Contents
 nav:
   - 首页:
@@ -61,6 +70,13 @@ extra:
   pagetime: 'on'
   manifest: 'manifest.webmanifest'
   githash: ''
+  notice:
+    title: 'Hi'
+    message: '欢迎点击这里对CUC ACM Wiki 提一点建议'
+    url: 'https://github.com/CUCCS/acm-wiki/issues'
+    position: 'topCenter'
+    progressBar: false
+    timeout: false
 
 extra_javascript:
   - '_static/js/extra.js?v=16'
